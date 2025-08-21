@@ -133,7 +133,7 @@
   }
   
   
-  /* === Status & Modal (unchanged) === */
+  /* === Status & Modal === */
   .statusMessage{padding:.5rem 1rem;border-radius:var(--radius);font-weight:600;grid-column:1/-1;text-align:center}
   .statusComplete{background-color:rgba(var(--shadow-rgb),0.1);color:var(--btn)}
   .statusConflict{background-color:rgba(239,68,68,.2);color:#ef4444}
@@ -176,7 +176,7 @@
     font-weight: 600;
     font-size: clamp(1rem, 5vw, 1.5rem);
     background: var(--bg-sec);
-    border: 1px solid var(--bg-ter); /* Inner thin border */
+    border: 1px solid var(--txt-dim); 
     transition: background-color 0.2s ease, color 0.2s ease;
     cursor: pointer;
     color: var(--btn-hover);
